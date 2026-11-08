@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "description": "RAG pipeline using local embeddings and Groq LLM",
-  "main": "embeddings.js",
+  "main": "rag.js",
   "scripts": {
-    "test": "node embeddings.js",
-    "rag": "node rag.js"
+    "test": "node rag.js --test",
+    "rag": "node rag.js",
+    "start": "node rag.js"
   },
   "dependencies": {
     "@xenova/transformers": "^2.17.2",
     "dotenv": "^16.4.7",
     "groq-sdk": "^0.15.0",
-    "pdf-parse": "^1.1.1"
+    "pdfjs-dist": "^5.4.296"
   }
 }

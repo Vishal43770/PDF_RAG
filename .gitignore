@@ -9,7 +9,7 @@ node_modules/
 # Cache and temporary files
 .cache/
 *.log
-
+asserts/
 # Editor settings
 .vscode/
 .idea/
